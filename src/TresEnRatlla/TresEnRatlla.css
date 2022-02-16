@@ -1,0 +1,20 @@
+.Caixa {
+  width: 700px;
+  height: 700px;
+}
+.Butons {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.FiPartidaSi {
+  display: block;
+}
+
+.FiPartidaNo {
+  display: none;
+}

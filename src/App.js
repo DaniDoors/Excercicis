@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import GaleriaFotos from "./GaleriaFotos/GaleriaFotos";
+import Comptador from "./Comptador/Comptador";
+import Acordio from "./Acordio/Acordio";
+import Carrusel from "./Carrusel/Carrusel";
+import TresEnRatlla from "./TresEnRatlla/TresEnRatlla";
+import RellotgeDigital from "./RellotgeDigital/RellotgeDigital";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+  return TresEnRatlla();
 }
-
-export default App;

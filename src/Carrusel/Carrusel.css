@@ -1,0 +1,23 @@
+.Pantalla {
+  display: flex;
+  flex-direction: column;
+}
+.Vista {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: center;
+}
+
+.Barra {
+  height: 25px;
+  width: 500px;
+  background-color: aqua;
+  text-align: center;
+  align-self: center;
+  font-size: 50px;
+}
+
+.Destacat {
+  color: magenta;
+  font-size: 100px;
+}
