@@ -18,11 +18,8 @@ export default function TresEnRatlla() {
 
   const canvia = (ix) => {
     let copia = [...array];
-    copia[ix] === "-"
-      ? (copia[ix] = "O")
-      : copia[ix] === "O"
-      ? (copia[ix] = "X")
-      : (copia[ix] = "O");
+    let torn = copia.reduce((a, v) => (v === "-" ? a + 1 : a), 0) % 2;
+    torn === 1 ? (copia[ix] = "O") : (copia[ix] = "X");
     setArray(copia);
     avaluaPartida(copia);
   };

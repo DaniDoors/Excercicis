@@ -1,0 +1,13 @@
+#Sidebar {
+  background-color: blue;
+  position: absolute;
+  top: 25px;
+  bottom: 0px;
+}
+.Visible {
+  display: block;
+}
+
+.NoVisible {
+  display: none;
+}

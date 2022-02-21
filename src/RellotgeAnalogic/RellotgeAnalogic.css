@@ -1,0 +1,28 @@
+.Analogic {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 100%;
+  border: 2px solid blueviolet;
+}
+
+#CaixaSegons {
+  height: 200px;
+  width: 200px;
+}
+
+.Segons {
+  position: relative;
+  left: 95px;
+  top: 10px;
+  height: 100px;
+  width: 10px;
+  border: 2px solid yellowgreen;
+}
+
+#num3 {
+  color: yellowgreen;
+  position: relative;
+  top: 90px;
+  left: 180px;
+}

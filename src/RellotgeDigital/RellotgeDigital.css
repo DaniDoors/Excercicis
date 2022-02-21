@@ -1,3 +1,14 @@
+.Rellotge {
+  margin-top: 20%;
+  margin-left: 15%;
+  height: 200px;
+  width: 400px;
+  border: black;
+  background-color: aqua;
+  font-size: xx-large;
+  text-align: center;
+}
+
 .DataVisible {
   display: block;
 }

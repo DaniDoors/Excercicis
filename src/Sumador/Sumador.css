@@ -1,0 +1,12 @@
+.Sumador {
+  height: 150px;
+  width: 250px;
+  margin-top: 10%;
+  margin-left: 15%;
+  padding-top: 25px;
+  background-color: blueviolet;
+}
+
+.Valor {
+  display: flex;
+}
